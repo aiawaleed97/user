@@ -1,0 +1,325 @@
+
+ body {
+  background-color: #3e4b40;
+  background: url(../images/fffff.jpg) no-repeat center center fixed; 
+   background-size: cover;
+ } 
+
+:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+form{
+  height: 850px;
+  width: 1000px;
+  background-color: rgba(255,255,255,0.04);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 90%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+
+  padding: 50px 35px;
+}
+form *{
+  font-family: 'Poppins',sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+body {
+  background-color: #f9f9fa
+}
+
+.padding {
+  padding: 3rem !important
+}
+
+.user-card-full {
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+  border: none;
+  margin-bottom: px;
+}
+
+.m-r-0 {
+  margin-right: 0px;
+}
+
+.m-l-0 {
+  margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+      background:url(file:///E:/HTML/01/OA/images/fffff.jpg) no-repeat center center fixed; 
+ 
+}
+
+.user-profile {
+  padding: 20px 0;
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.m-b-25 {
+  margin-bottom: 25px;
+}
+
+.img-radius {
+   border-radius: 5px;
+}
+
+
+
+h6 {
+  font-size: 14px;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px){
+p {
+  font-size: 14px;
+}
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  color: #919aa3 !important;
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.user-card-full .social-link li {
+  display: inline-block;
+}
+
+.user-card-full .social-link li a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.container
+{
+width: 80%;
+margin: auto;
+overflow: hidden;
+
+}
+ul{
+    margin: 0;
+    padding: 0%;
+    
+}
+
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+header li {
+    float: right;
+    display: inline;
+    padding: 0 10px 0 10px;
+    
+
+}
+header nav {
+    float:right;
+    margin-top: 0px;
+    margin-right: 50px;
+    position: fixed;
+    z-index: 3;
+}
+header .current a
+{
+    color: #f2e6d2;
+    font-weight: inherit;
+}
+header a:hover
+{
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+
+
+body {
+    background-color: #3e4b40;
+    background: url(..//images/fffff.jpg) no-repeat center center fixed; 
+    
+   } 
+   
+#logo{
+height: 50px;
+width: 65px;
+padding-left: 80px;
+padding-top: 10px;
+position: fixed;
+z-index: 3;
+
+}
+#rect{ height: 60px;
+    width: 1800px;
+    position: fixed;
+    padding-left:56px;
+    padding-top: 0px;
+    z-index: 2;
+    opacity: 0.65;
+}
+#logobox{
+    width: 0%;
+    height: 0%;
+    float: left;
+}
+#logo{
+height: 50px;
+width: 65px;
+padding-left: 67px;
+padding-top: 6px;
+position: fixed;
+}
+#logo1{
+    height: 616px;
+    width: 55px;
+    position: fixed;
+    padding-left: 0px;
+    padding-top: 0px;
+
+    }
+#line{
+        height: 4px;
+        width: 1800px;
+        position: fixed;
+        padding-left: 55px;
+        padding-top: 60px;
+        z-index: 2;
+    
+        }
+
+#home {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 14px ;
+
+}
+#list {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 54px ;
+
+}
+#insta {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 104px ;
+
+}
+#face {height: 37px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 154px ;
+
+}
+#whats {height: 27px;
+    width: 29px;
+    position: fixed;
+    padding-left:14px;
+    padding-top: 204px ;
+
+}
+#tele {height: 100px;
+    width: 19px;
+    position: fixed;
+    padding-left:20px;
+    padding-top: 250px ;
+
+}
+#email {height: 180px;
+    width: 19px;
+    position: fixed;
+    padding-left:20px;
+    padding-top: 390px ;
+
+}
