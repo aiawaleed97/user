@@ -1,18 +1,4 @@
 
- body {
-  background-color: #3e4b40;
-  background: url(../images/fffff.jpg) no-repeat center center fixed; 
-   background-size: cover;
- } 
-
-:before,
-*:after{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
 
 
 form{
@@ -21,7 +7,7 @@ form{
   background-color: rgba(255,255,255,0.04);
   position: absolute;
   transform: translate(-50%,-50%);
-  top: 90%;
+  top: 97%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -173,6 +159,32 @@ p {
 }
 
 
+:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+body
+{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: #3e4b40;
+}
 .container
 {
 width: 80%;
@@ -224,7 +236,7 @@ header a:hover
 body {
     background-color: #3e4b40;
     background: url(..//images/fffff.jpg) no-repeat center center fixed; 
-    
+     background-size: cover;
    } 
    
 #logo{
