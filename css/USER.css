@@ -1,13 +1,27 @@
 
+ body {
+  background-color: #3e4b40;
+  background: url(../images/fffff.jpg) no-repeat center center fixed; 
+   background-size: cover;
+ } 
+
+:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 
 
 form{
-  height: 850px;
-  width: 1000px;
+  height: 1000px;
+  width: 900px;
   background-color: rgba(255,255,255,0.04);
   position: absolute;
   transform: translate(-50%,-50%);
-  top: 97%;
+  top: 100%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -78,7 +92,7 @@ body {
 
 
 h6 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card .card-block p {
@@ -158,32 +172,28 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-
-:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
 }
 
-.background .shape{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
-    
+.btn {
+  border: 2px solid #3e4b40;
+  color: #3e4b40;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-
-
-
-
-body
-{
-    font-family: sans-serif;
-    padding: 0%;
-    margin: 0%;
-    background-color: #3e4b40;
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
 }
 .container
 {
@@ -236,7 +246,7 @@ header a:hover
 body {
     background-color: #3e4b40;
     background: url(..//images/fffff.jpg) no-repeat center center fixed; 
-     background-size: cover;
+    
    } 
    
 #logo{
